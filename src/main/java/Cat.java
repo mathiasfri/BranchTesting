@@ -4,4 +4,13 @@ public class Cat extends Animal
     {
         super(name);
     }
+
+    public void makeSound()
+    {
+        System.out.println("Meow");
+    }
+
+    public boolean eat(String foodType){
+        return true;
+    }
 }
