@@ -1,15 +1,7 @@
 public class Cat extends Animal
 {
-    public Cat(String name) {
-        super(name);
-    }
-
-    public void makeSound()
+    public Cat(String name)
     {
-        System.out.println("Miav");
-    }
-
-    public boolean eat(String foodType){
-        return true;
+        super(name);
     }
 }
