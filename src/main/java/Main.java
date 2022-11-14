@@ -10,5 +10,8 @@ public class Main
 
         cat.eat("fish");
         dog.eat("bone");
+
+        cat.showMood(true);
+        dog.showMood(false);
     }
 }
