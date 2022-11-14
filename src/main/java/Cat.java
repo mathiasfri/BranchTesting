@@ -4,4 +4,9 @@ public class Cat extends Animal
     {
         super(name);
     }
+
+    public void makeSound()
+    {
+        System.out.println("Meow");
+    }
 }
